@@ -1,0 +1,21 @@
+{
+  "name": "RHVoiceTTS",
+  "version": "0.0.1",
+  "slug": "rhvoicetts",
+  "description": "Text to speech voice synthesizer from RHVoice.",
+  "arch": [
+    "armhf",
+    "armv7",
+    "aarch64",
+    "amd64",
+    "i386"
+  ],
+  "startup": "before",
+  "boot": "auto",
+  "schema": {},
+  "options": {},
+  "ports": {
+    "26491/tcp": 26491
+  }
+
+}
